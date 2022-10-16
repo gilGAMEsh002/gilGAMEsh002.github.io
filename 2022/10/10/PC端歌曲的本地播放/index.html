@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/bat-favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/bat-favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"gilgamesh002.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="网易云版权问题导致部分歌曲显示的封面、歌词时常无法获取或者获取错误，我甚至怀疑我有部分歌曲被网易云吃了 ​">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PC端歌曲的本地播放">
+<meta property="og:url" content="http://gilgamesh002.github.io/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/index.html">
+<meta property="og:site_name" content="KINDOM">
+<meta property="og:description" content="网易云版权问题导致部分歌曲显示的封面、歌词时常无法获取或者获取错误，我甚至怀疑我有部分歌曲被网易云吃了 ​">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://gilgamesh002.github.io/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/image-20221010234603596.png">
+<meta property="og:image" content="http://gilgamesh002.github.io/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/Screenshot_2022-10-11-15-44-42-48_25d38497d72d752.jpg">
+<meta property="article:published_time" content="2022-10-09T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-10-16T03:48:58.083Z">
+<meta property="article:author" content="Gilgamesh">
+<meta property="article:tag" content="音乐">
+<meta property="article:tag" content="播放器">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://gilgamesh002.github.io/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/image-20221010234603596.png">
+
+
+<link rel="canonical" href="http://gilgamesh002.github.io/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://gilgamesh002.github.io/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/","path":"2022/10/10/PC端歌曲的本地播放/","title":"PC端歌曲的本地播放"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>PC端歌曲的本地播放 | KINDOM</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">KINDOM</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Gilgamesh"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">Gilgamesh</p>
+  <div class="site-description" itemprop="description">we choose to go to the moon</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/gilGAMEsh002" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;gilGAMEsh002" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://gilgamesh002.com/yourname" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://gilgamesh002.github.io/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Gilgamesh">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="KINDOM">
+      <meta itemprop="description" content="we choose to go to the moon">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="PC端歌曲的本地播放 | KINDOM">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          PC端歌曲的本地播放
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-10-10 00:00:00" itemprop="dateCreated datePublished" datetime="2022-10-10T00:00:00+08:00">2022-10-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-10-16 11:48:58" itemprop="dateModified" datetime="2022-10-16T11:48:58+08:00">2022-10-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E9%9F%B3%E4%B9%90/" itemprop="url" rel="index"><span itemprop="name">音乐</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E9%9F%B3%E4%B9%90/%E6%92%AD%E6%94%BE%E5%99%A8/" itemprop="url" rel="index"><span itemprop="name">播放器</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>825</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>网易云版权问题导致部分歌曲显示的封面、歌词时常无法获取或者获取错误，我甚至怀疑我有部分歌曲被网易云吃了</p>
+<p>​    <span id="more"></span></p>
+<p>脉络：</p>
+<p>网易云版权问题导致部分歌曲显示的封面、歌词时常无法获取或者获取错误，我甚至怀疑我有部分歌曲被网易云吃了</p>
+<p>——&gt;希望有个稳定的播放源</p>
+<p>悉数国内外音乐平台:iTunes,Spotify,apple music,网易云音乐,qq音乐,酷狗音乐.版权费都是很重的一笔钱,我两千余首歌,首先钱包就不允许我去搞神马正版资源.—-歌曲下载我已经解决了,凭借七年的积累,整体歌单已经保留下来了,新的歌曲都是经由手机上的软件<em>歌词分享</em>–&gt;电脑</p>
+<p>(为什么不就在手机上听歌?)</p>
+<p>(手机上不方便做文件管理;手机上内存始终不必电脑)</p>
+<p>——-&gt;这一切都指向了PC端的本地播放器</p>
+<p>偶然之下我用PotPlayer播放了歌曲,发现用这款视频播放器作音乐播放器表现也不错</p>
+<p><img src="/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/image-20221010234603596.png" alt="image-20221010234603596"></p>
+<p>它的随机播放我觉得非常不错,随机度很高–还没有听到重复的歌曲,我想许多人听歌还是随机播放吧,反正我是这样,经常随机偶尔顺序,随机的时候老是被推到一首歌是很烦的一件事,网易云的随机播放做得也不是很好,但最近出的<strong>云随机</strong>，它的随机方式很有意思。</p>
+<img src="/2022/10/10/PC%E7%AB%AF%E6%AD%8C%E6%9B%B2%E7%9A%84%E6%9C%AC%E5%9C%B0%E6%92%AD%E6%94%BE/Screenshot_2022-10-11-15-44-42-48_25d38497d72d752.jpg" alt="Screenshot_2022-10-11-15-44-42-48_25d38497d72d752" style="zoom: 33%;">
+
+<p>图一里还有两个内容.<br>1.歌词,封面问题.由于是本地播放器,这两个肯定是需要本地文件支持的,但我以前下歌的时候都没有考虑到这个问题,歌词有也删了,所以怎么才能批量地搞到这两个东西?<br>2.可以看到歌曲的名字格式也不尽相同,有<code>title+date</code>的,有<code>artist - title</code>的(位置调换的也有,这里图中没有),有单一个<code>title</code>的,你想啊,到时候你根据首字母排序的时候岂不是很乱,想根据歌手排序岂不是很乱,退一万步讲,我眼睛也接受不了这种一看就乱七八糟的格式啊.所以问题就来了,怎么才能批量将歌曲的名称正确统一?<br>          (歌曲名问题其实是我不同时期下歌方式不同导致的,也有不断搬来搬去导致信息丢失的问题)</p>
+<blockquote>
+<p>这两个问题将在后面的文章中详细展开如何解决,届时还将推荐更多,更好用的软件.</p>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag"><i class="fa fa-tag"></i> 音乐</a>
+              <a href="/tags/%E6%92%AD%E6%94%BE%E5%99%A8/" rel="tag"><i class="fa fa-tag"></i> 播放器</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/10/01/%E8%8A%82%E6%97%A5%E7%9A%84%E5%8F%82%E4%B8%8E%E6%84%9F/" rel="prev" title="节日的参与感">
+                  <i class="fa fa-chevron-left"></i> 节日的参与感
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/10/13/%E7%AC%AC%E4%B8%80%E9%9B%86%E5%A5%A0%E5%AE%9A%E7%9A%84%E5%9F%BA%E8%B0%83/" rel="next" title="从头看见尾（第一集）">
+                  从头看见尾（第一集） <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NzIyOC8zMzY5Mg=="></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+<!--
+-->
+<div class="copyright">
+  &copy; 2022-8 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Gilgamesh</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">9k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">8 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script src="/js/third-party/comments/livere.js"></script>
+
+</body>
+</html>
